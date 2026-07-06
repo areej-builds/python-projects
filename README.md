@@ -28,10 +28,6 @@ A structured, lightweight Command-Line Interface (CLI) application built with pu
 3. **Execution Command:** Run the script by executing the following command:
    ```bash
    python todo_list_app.py
-   
----
-
-## Operation: 
-Interact with the persistent application runtime by selecting numeric options (1-4) from the displayed CLI menu
+4. **Operation:** Interact with the persistent application runtime by selecting numeric options (1-4) from the displayed CLI menu
 
    
