@@ -1,33 +1,38 @@
-# Python CLI To-Do List Application
+# DecodeLabs Python Internship - Projects Portfolio
 
-A structured, lightweight Command-Line Interface (CLI) application built with pure Python. This project focuses on implementing robust core programming logic and efficient data handling practices without relying on global state configurations.
-
----
-
-## Key Features
-
-* **Dynamic Data Insertion:** Allows users to add tasks with automatically incrementing sequential unique IDs.
-* **Structured Data Representation:** Generates a clean, formatted terminal-based table output to display all records simultaneously.
-* **State Modification:** Performs custom lookups by task ID to locate specific records and securely update their status to "Completed".
-* **Input Validation:** Features basic exception handling to prevent empty text inputs or invalid non-numeric entries during record lookups.
+Welcome to my professional development portfolio! This repository tracks my hands-on core backend engineering and automated computation progress during the Python Backend Developer Internship (Batch 2026) at DecodeLabs.
 
 ---
 
-## Technical Concepts Implemented
+## 📁 Repository Structure
 
-* **Procedural Programming:** Code architecture separated cleanly into independent, single-responsibility functions for processing and output.
-* **Local State Management:** Data states are encapsulated within the main execution loop and transferred via parameters, avoiding the use of the `global` keyword.
-* **Data Layer Architecture:** Implements standard data structuring by using Python dictionaries as individual database rows, appended inside a dynamic master list container.
+All projects are decoupled into individual execution modules with standard structure rules:
+* `Project-01-Todo-List/main.py` — Core Task Management CLI Script
+* `Project-02-Expense-Tracker/main.py` — State-Preserving Expense Tracker App
 
 ---
 
-## How to Run the Project
+## 🚀 Projects Overview
 
-1. **Prerequisites:** Ensure that Python 3 is installed and configured on your system environment.
-2. **Directory Navigation:** Open your terminal or preferred IDE terminal (e.g., VS Code) and navigate to the folder containing your project file.
-3. **Execution Command:** Run the script by executing the following command:
-   ```bash
-   python todo_list_app.py
-4. **Operation:** Interact with the persistent application runtime by selecting numeric options (1-4) from the displayed CLI menu
+### 🔹 Project 1: Terminal-Based Todo List App
+A clean, terminal-driven application engineered to manage operational workflows using advanced data structures and dynamic user validation.
+* **Data Architecture:** Utilized a collection of isolated Python dictionaries nested inside a global runtime list (`my_tasks = []`) to mimic database records.
+* **Dynamic State Isolation:** Managed a safe auto-incrementing task ID tracker (`task_id_counter`) passed strictly between execution streams without global variable dependency.
+* **Format Alignments:** Implemented professional tabular layouts using string alignment formatting modifiers (`<2`, `<9`) for real-time presentation feeds.
+
+### 🔹 Project 2: CLI Expense Tracker App
+A console-based application engineered to process real-time financial tracking and numerical data compilation.
+* **State Management:** Fully isolated dynamic arithmetic operations (`total = total + new_expense`) without system state loss during iteration loops.
+* **Digital Poka-Yoke:** Implemented type-safety shields and robust exception-handling (`try-except ValueError`) to trap garbage entries and prevent sudden runtime engine failure.
+* **Modern Type Hinting:** Built with clean, production-ready function signatures for absolute code readability.
+
+---
+
+## 🛠️ Tech Stack & Concepts Covered
+* **Core Language:** Python 3.x
+* **Key Patterns:** Input-Process-Output (IPO) Architecture, Nested Data Structures (List of Dicts), State Counter Mechanics, Error Isolation (Try-Except Barriers).
+
+---
+*Internship Track managed under industrial simulation protocols powered by DecodeLabs.*
 
    
